@@ -10,7 +10,7 @@ body{
     background-color: #fff;
     display: flex;
     flex-direction: row-reverse;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .main-content{
