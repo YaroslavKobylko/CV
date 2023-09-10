@@ -1,0 +1,294 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-color: #f6f6fa;
+    padding: 0px 32% 0px;
+    margin: 0px;
+}
+
+.wrapper{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100vh;
+}
+
+.main-content{
+    padding: 40px 40px 20px 15px;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    background-color: #e0ebfe;
+    padding: 40px 0px;
+    box-sizing: border-box;
+    width: 370px;
+}
+
+.sidebar-content{
+    padding: 40px 20px 0px 40px;
+    box-sizing: border-box;
+}
+
+.contacts-title{
+    color: #161d2a;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.contacts-type{
+    color: #161d2a;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 8px;
+}
+
+.contacts-link{
+    color: #2979FF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.contacts-item{
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.contacts-container{
+    margin-bottom: 40px;
+}
+
+.skills-container{
+    margin-bottom: 40px;
+}
+
+.skills-title{
+    color: #161d2a;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.skills-list{
+    padding-left: 16px;
+}
+
+.skills-list-item{
+    color: #161d2a;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.my-profession{
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.my-name{
+    color: #000;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.my-descr{
+    color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+}
+
+.my-info{
+    margin-bottom: 40px;
+}
+
+.my-projects-title{
+    color: #000;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px; 
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.my-projects-item{
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px; 
+}
+
+.my-projects-list{
+    padding-left: 16px;
+}
+
+.my-projects-item-link{
+    color: #005fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+    text-decoration-line: underline;
+}
+
+.my-projects-item-tech{
+    color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+}
+
+.my-projects-container{
+    margin-bottom: 20px;
+}
+
+.courses-title{
+    color: #000;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px; 
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.education {
+    display: flex;
+    align-items: center;
+}
+
+.education svg {
+    padding-bottom: 110px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.courses {
+    display: flex;
+    align-items: center;
+}
+
+.courses svg {
+    padding-bottom: 260px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.my-projects-container{
+    display: flex;
+    align-items: center;
+}
+
+.my-projects-container svg {
+    padding-bottom: 104px;
+    height: auto;
+    margin-right: 5px;
+}
+.my-info {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.photo {
+    padding-bottom: 206px;
+    margin-right: 5px; /* Задаємо відступ зправа від фотографії */
+}
+
+.info {
+    text-align: left; /* Вирівнюємо текст зліва від фотографії */
+}
+@media (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .main-content {
+        order: 2;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Вирівнювання по вертикалі по центру */
+        align-items: center;
+        width: 100%;
+        order: 1;
+    }
+    .main-content {
+        padding: 0;
+    }
+    .sidebar-content {
+        padding: 0;
+    }
+    .sidebar-content{
+        padding-left: 40px;
+    }
+
+    .my-profession{
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .my-name{
+        line-height: 28px;
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+    
+    .my-descr{
+        font-size: 10px;
+        line-height: 12px; 
+    }
+    
+    .my-info{
+        margin-bottom: 0px;
+    }
+    
+    .my-projects-title{
+        font-size: 18px;
+        line-height: 20px; 
+        margin-bottom: 4px;
+    }
+    
+    .my-projects-item{
+        font-size: 12px;
+        line-height: 16px; 
+    }
+    
+    .my-projects-list{
+        padding-left: 40px;
+    }
+    
+    .my-projects-item-link{
+        font-size: 12px;
+        line-height: 16px; 
+    }
+    
+    .my-projects-item-tech{
+        font-size: 12px;
+        line-height: 16px; 
+    }
+    
+    .my-projects-container{
+        margin-bottom: 40px;
+    }
+}
+
+
+
