@@ -154,6 +154,15 @@ body{
 
 .my-projects-container{
     margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.my-projects-container svg{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .courses-title{
@@ -187,16 +196,6 @@ body{
     margin-right: 5px;
 }
 
-.my-projects-container{
-    display: flex;
-    align-items: center;
-}
-
-.my-projects-container svg {
-    padding-bottom: 104px;
-    height: auto;
-    margin-right: 5px;
-}
 .my-info {
     display: flex;
     align-items: center;
@@ -211,6 +210,58 @@ body{
 .info {
     text-align: left; /* Вирівнюємо текст зліва від фотографії */
 }
+
+.Work-desc{
+    color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+}
+
+.FructusX{
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px; 
+}
+
+.work-title{
+    color: #000;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px; 
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.work-position{
+    margin-bottom: 0px;
+}
+
+.work-to-do{
+    color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+}
+
+.ToDoInCompany{
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px; 
+}
+
+.work{
+    display: flex;
+}
+
+.work svg{
+    height: 20px;
+    min-width: 20px;
+    margin-right: 5px;
+}
+
 @media (max-width: 768px) {
     body {
         padding: 0;
@@ -289,6 +340,3 @@ body{
         margin-bottom: 40px;
     }
 }
-
-
-
